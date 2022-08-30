@@ -26,7 +26,6 @@ import NomSlot from './NomSlot.vue';
       end() {
         // émission d'un évent personnalisé vers le parent
         this.$emit('ended', this.todo.id);
-
       }
     },
     components: { NomSlot }
